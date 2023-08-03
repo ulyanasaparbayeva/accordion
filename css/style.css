@@ -1,0 +1,40 @@
+
+.accordion {
+    padding-top:50px;
+    text-align: center;
+    width: 700px;
+    margin: 0px auto;
+}
+
+.accordion-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-head {
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer ;
+}
+
+.accordion-head:hover {
+    color: red;
+}
+
+.accordion-text {
+    padding: 10px 0px;
+    display: none;
+    text-align: initial;
+    font-family: 'Poppins',sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #9e91ab;
+}
+
+
+.rotate-icon {
+    transform: rotate(269deg);
+}
